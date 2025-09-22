@@ -1,4 +1,4 @@
-# 1_prepare_data.py
+# prepare_data.py
 import json
 import random
 from datasets import load_dataset
@@ -29,7 +29,6 @@ def load_test_prompts(num_prompts=10, dataset_name="tatsu-lab/alpaca"):
         elif 'prompt' in dataset.column_names:
             # Other possible dataset formats
             prompts = [item['prompt'] for item in dataset if item['prompt']]
-
         # Filter prompts that are too short or too long
         filtered_prompts = []
         for prompt in prompts:
@@ -62,7 +61,7 @@ def main():
     # --- 配置 ---
     NUM_PROMPTS = 10
     DATASET_NAME = "tatsu-lab/alpaca"
-    OUTPUT_FILE = "test_prompts.json"
+    OUTPUT_FILE = "../data/test_prompts.json"
     print("Preparing a fixed set of test prompts...")
     # 1. 调用一次加载和随机抽样函数
     prompts = load_test_prompts(num_prompts=NUM_PROMPTS, dataset_name=DATASET_NAME)
