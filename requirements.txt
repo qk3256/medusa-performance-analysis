@@ -1,0 +1,10 @@
+# edusa 核心库
+git+https://github.com/FasterDecoding/medusa.git
+
+# 其他我们需要的库
+torch
+transformers
+datasets
+numpy
+accelerate
+fastchat
