@@ -1,0 +1,102 @@
+{
+    "mode": "medusa_full",
+    "timestamp": "2025-09-20T18:32:17.241079",
+    "config": {
+        "max_new_tokens": 256,
+        "temperature": 0.0,
+        "posterior_threshold": 0.09,
+        "posterior_alpha": 0.3,
+        "warmup_runs": 3,
+        "dataset": "tatsu-lab/alpaca",
+        "prompt_count": 10
+    },
+    "statistics": {
+        "avg_speed": 41.299241065979004,
+        "std_speed": 11.967963087159577,
+        "avg_tokens": 102.9,
+        "min_speed": 26.334447860717773,
+        "max_speed": 73.74038696289062
+    },
+    "detailed_results": [
+        {
+            "prompt": "Fill in the blank with a word that is most appropriate in the given sentence.",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Fill in the blank with a word that is most appropriate in the given sentence. ASSISTANT: I'm sorry, but I cannot provide a response without a specific sentence to work with. Please provide a sentence for me to assist you.",
+            "mode": "medusa_full",
+            "tokens_per_sec": 37.78984832763672,
+            "new_tokens_generated": 30,
+            "total_time_seconds": 0.7938640117645264
+        },
+        {
+            "prompt": "Rewrite this sentence using the same meaning:\nHe had a long meeting",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Rewrite this sentence using the same meaning:\nHe had a long meeting ASSISTANT: He attended a lengthy conference.",
+            "mode": "medusa_full",
+            "tokens_per_sec": 26.334447860717773,
+            "new_tokens_generated": 8,
+            "total_time_seconds": 0.3037846088409424
+        },
+        {
+            "prompt": "How many years have passed since 1950?",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: How many years have passed since 1950? ASSISTANT: As of 2023, there have been 73 years since 1950.",
+            "mode": "medusa_full",
+            "tokens_per_sec": 37.91753387451172,
+            "new_tokens_generated": 23,
+            "total_time_seconds": 0.6065795421600342
+        },
+        {
+            "prompt": "Create a mobile app that displays popular sports results",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Create a mobile app that displays popular sports results ASSISTANT: To create a mobile app that displays popular sports results, you will need to use a programming language such as Swift or Java to develop the app. You will also need to use a mobile development framework such as React Native or Flutter to create the user interface.\n\nHere are the general steps you can follow to create the app:\n\n1. Determine the sports and events you want to include in the app. You can use APIs provided by sports organizations or third-party services to retrieve the latest sports results.\n2. Design the user interface for the app. This should include a main screen that displays the latest sports results, as well as screens for individual sports and events.\n3. Use a mobile development framework to create the app's user interface. You can use React Native or Flutter to create the UI and integrate it with the sports results data.\n4. Use a programming language such as Swift or Java to create the app's backend and database. This will be used to store and retrieve the sports results data.\n5. Test the app thoroughly to ensure that it is functioning correctly and that the user interface is user-friendly.\n6. Publish the app to the appropriate app store (e.g. Apple App Store or",
+            "mode": "medusa_full",
+            "tokens_per_sec": 47.8183708190918,
+            "new_tokens_generated": 259,
+            "total_time_seconds": 5.416328191757202
+        },
+        {
+            "prompt": "Describe a situation in which someone should use a credit card.",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Describe a situation in which someone should use a credit card. ASSISTANT: There are many situations in which someone might want to use a credit card. Some examples might include:\n\n1. To make a purchase that they can afford to pay off in full at the end of the month, in order to earn rewards or build credit.\n2. To pay for a large or expensive item that they can't afford to pay for upfront, such as a car or a home.\n3. To make a purchase that offers protection or security, such as travel insurance or purchase protection.\n4. To make a purchase that offers rewards or cashback, such as gas or groceries.\n5. To make a purchase that offers convenience, such as online shopping or ordering food delivery.\n\nIt's important to use credit cards responsibly and only when it makes sense for your financial situation. It's also important to pay off your balance in full each month to avoid paying interest charges.",
+            "mode": "medusa_full",
+            "tokens_per_sec": 37.8486442565918,
+            "new_tokens_generated": 198,
+            "total_time_seconds": 5.23136305809021
+        },
+        {
+            "prompt": "Identify the correct form of the following verb.",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Identify the correct form of the following verb. ASSISTANT: I'm sorry, but I cannot identify the correct form of a verb without knowing the context or the specific verb you are referring to. Please provide me with more information or the verb you would like me to identify.",
+            "mode": "medusa_full",
+            "tokens_per_sec": 41.19431686401367,
+            "new_tokens_generated": 45,
+            "total_time_seconds": 1.092383623123169
+        },
+        {
+            "prompt": "Arrange the words to form a complete sentence.\nwords: book, on, shelf, the",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Arrange the words to form a complete sentence.\nwords: book, on, shelf, the ASSISTANT: The book is on the shelf.",
+            "mode": "medusa_full",
+            "tokens_per_sec": 73.74038696289062,
+            "new_tokens_generated": 9,
+            "total_time_seconds": 0.12204980850219727
+        },
+        {
+            "prompt": "Generate an analogy for the phrase \"As bold as a lion.\"",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Generate an analogy for the phrase \"As bold as a lion.\" ASSISTANT: As bold as a lion is like a person who is as fearless as a lion, unafraid to take on any challenge or adversary. Just as a lion is the king of the jungle and will face down any predator or rival, a person who is as bold as a lion is not afraid to assert themselves and stand up for what they believe in, even in the face of opposition or danger.",
+            "mode": "medusa_full",
+            "tokens_per_sec": 33.6594123840332,
+            "new_tokens_generated": 90,
+            "total_time_seconds": 2.6738436222076416
+        },
+        {
+            "prompt": "How does debt consolidation work?",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: How does debt consolidation work? ASSISTANT: Debt consolidation is a process of combining multiple debts into a single loan with a lower interest rate, typically with the goal of simplifying debt repayment and reducing overall interest costs. Here's a step-by-step overview of how debt consolidation typically works:\n\n1. Assess your debts: Review your current debts, including credit card balances, personal loans, and other unsecured debts. Determine the total amount owed, interest rates, and minimum monthly payments.\n2. Research debt consolidation options: Explore various debt consolidation methods, such as a personal loan, credit card balance transfer, or a debt management plan (DMP). Each option has its pros and cons, so it's essential to understand the differences before choosing the best fit for your situation.\n3. Apply for a consolidation loan: If you decide to consolidate through a personal loan, apply for a loan with a lower interest rate than your existing debts. You'll typically need a good credit score and steady income to qualify.\n4. Consolidate your debts: Once approved, receive the loan and use it",
+            "mode": "medusa_full",
+            "tokens_per_sec": 39.33332061767578,
+            "new_tokens_generated": 258,
+            "total_time_seconds": 6.559324026107788
+        },
+        {
+            "prompt": "Suggest a new kitchen ingredient for whipped cream.",
+            "generated_text": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Suggest a new kitchen ingredient for whipped cream. ASSISTANT: One new ingredient that can be used to enhance whipped cream is matcha powder. Matcha is a finely ground green tea powder that is traditionally used in Japanese tea ceremonies and is known for its rich, earthy flavor and vibrant green color. When added to whipped cream, it can add a unique and sophisticated flavor to the cream, as well as a beautiful green color. It can also be used as a natural food coloring agent.",
+            "mode": "medusa_full",
+            "tokens_per_sec": 37.35612869262695,
+            "new_tokens_generated": 109,
+            "total_time_seconds": 2.917861223220825
+        }
+    ]
+}
